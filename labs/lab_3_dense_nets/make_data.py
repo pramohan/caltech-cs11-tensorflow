@@ -146,8 +146,8 @@ if __name__ == '__main__':
           (len(pos), len(neg)))
 
     # Save data
-    np.savetxt('./data/positives.txt', pos)
-    np.savetxt('./data/negatives.txt', neg)
+    np.savetxt('positives.txt', pos)
+    np.savetxt('negatives.txt', neg)
 
     # Plot data
     plot_scene_true(axes=axes)
